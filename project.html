@@ -1,0 +1,159 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>project</title>
+	<style>
+		body{
+			display: flex;
+			justify-content: space-around;
+			background: linear-gradient(to bottom,darkred, lightpink);
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+			animation: 3s linear 0s running infinite ani3;
+		}
+		
+		.block1 {
+			height: 450px;
+			width: 350px;
+			font-size: 300px;
+			margin-top: 200px;
+			text-align: center;
+			background: linear-gradient(blue, yellow);
+			color: red;
+			animation: 1s linear 0s running infinite ani;
+		}
+		
+		.block2 {
+			height: 450px;
+			width: 350px;
+			font-size: 300px;
+			margin-top: 200px;
+			text-align: center;
+			background: linear-gradient(blue, yellow);
+			color: red;
+			animation: 2s linear 0s running infinite ani2;
+		}
+		
+		.block3 {
+			height: 450px;
+			width: 350px;
+			font-size: 300px;
+			margin-top: 200px;
+			text-align: center;
+			background: linear-gradient(blue, yellow);
+			color: red;
+			animation: 2s linear 0s running infinite ani;
+		}
+		
+		.block4 {
+			height: 450px;
+			width: 350px;
+			font-size: 300px;
+			margin-top: 200px;
+			text-align: center;
+			background: linear-gradient(blue, yellow);
+			color: red;
+			animation: 1s linear 0s running infinite ani2;
+		}
+		
+		@keyframes ani{
+			20%{
+				background:  linear-gradient(purple , orange);
+				color: darkblue;		
+			}
+			
+			40%{
+				background: linear-gradient(lightpink, lightgreen);
+				color: yellow;
+			}
+			
+			60%{
+				background: linear-gradient(red, purple);
+				color: orange;
+			}
+			
+			80%{
+				background: linear-gradient(yellow, lightblue);
+				color: tomato;
+			}
+			
+			100%{
+				transform: skewY(360deg);
+				background: linear-gradient(aqua, darkred);
+				color: black;
+			}
+			
+		}
+		
+		@keyframes ani2{
+			20%{
+				background:  linear-gradient(purple , orange);
+				color: darkblue;		
+			}
+			
+			40%{
+				background: linear-gradient(lightpink, lightgreen);
+				color: yellow;
+			}
+			
+			60%{
+				background: linear-gradient(red, purple);
+				color: orange;
+			}
+			
+			80%{
+				background: linear-gradient(yellow, lightblue);
+				color: tomato;
+			}
+			
+			100%{
+				transform: skewY(-360deg);
+				background: linear-gradient(aqua, darkred);
+				color: black;
+			}
+			
+		}
+		
+		@keyframes ani3{
+			25%{
+				background:  linear-gradient(to left, purple , white);
+				color: darkblue;
+				background-repeat: no-repeat;
+				background-attachment: fixed;
+			}
+
+			50%{
+				background: linear-gradient(to top, darkblue, aqua);
+				color: orange;
+				background-repeat: no-repeat;
+				background-attachment: fixed;
+			}
+			
+			75%{
+				background: linear-gradient(to right, red, pink);
+				color: tomato;
+				background-repeat: no-repeat;
+				background-attachment: fixed;
+			}
+			
+			100%{
+				transform: rotateY(360deg);
+				background: linear-gradient(to bottom, lightblue, darkred);
+				color: black;
+				background-repeat: no-repeat;
+				background-attachment: fixed;
+			}
+		}
+		
+		
+	</style>
+</head>
+
+<body>
+	<div class="block1">屌</div>
+	<div class="block2">鳩</div>
+	<div class="block3">你</div>
+	<div class="block4">咩</div>
+</body>
+</html>
